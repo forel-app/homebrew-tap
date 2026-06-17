@@ -6,13 +6,13 @@ file automation app for macOS (the Hazel alternative).
 ## Install
 
 ```sh
-brew install forel-app/forel/forel
+brew install --cask forel-app/tap/forel
 ```
 
 or:
 
 ```sh
-brew tap forel-app/forel
+brew tap forel-app/tap
 brew install forel
 ```
 
