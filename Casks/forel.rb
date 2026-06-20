@@ -1,9 +1,9 @@
 cask "forel" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.0-beta.5"
-  sha256 arm:   "5171adfdd2abe9bbffa257fa82cdca5016593d7c2d7a16c15c49bb04d09c2c56",
-         intel: "4e234790f8e2d52b340b6a22b1107a8e5eb6b256167c13aacc5c47601f44aa8e"
+  version "1.0.0"
+  sha256 arm:   "c65c758400aeadb484419019ccfabc0d120dac8549733f4f07da1fc9666db6f6",
+         intel: "9ad00161796bda40c7c8332746ea0189895b1eb122030d0870993194d395db23"
 
   url "https://github.com/lab421/forel/releases/download/v#{version}/Forel-v#{version}-darwin-#{arch}.dmg"
   name "Forel"
